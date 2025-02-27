@@ -19,7 +19,7 @@ PRIMARY KEY (urlID),
 UNIQUE KEY url (url)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE url_keywords (
+CREATE TABLE www_index (
 id int NOT NULL AUTO_INCREMENT,
 urlID int NOT NULL,
 kwID int NOT NULL,
